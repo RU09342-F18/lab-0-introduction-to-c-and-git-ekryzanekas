@@ -7,7 +7,10 @@
 int main(void)
 {
     int num1, num2;
+int answer, answer2;
 
+answer = add(num1, num2);
+answer2 = sub(num1, num2);
 
 }
 
@@ -75,5 +78,5 @@ int inverse(int num1, int num2){ //bitwise inverse to show the inverse of num1 a
     int num3, num4; //will make 2 numbers to be the inverse for each
     num3 = ~num1;
     num4 = ~num2;
-    return ("")
+    return (num3, num4) // not sure if I can return 2 different values in one function
 }
